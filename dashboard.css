@@ -1,0 +1,160 @@
+.userpick{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+}
+.userpick h1{
+    background: #43D1AF;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+.userpick input[type="text"],
+.userpick input[type="date"],
+.userpick input[type="datetime"],
+.userpick input[type="email"],
+.userpick input[type="number"],
+.userpick input[type="search"],
+.userpick input[type="time"],
+.userpick input[type="url"],
+.userpick textarea,
+.userpick select 
+{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+.userpick input[type="text"]:focus,
+.userpick input[type="date"]:focus,
+.userpick input[type="datetime"]:focus,
+.userpick input[type="email"]:focus,
+.userpick input[type="number"]:focus,
+.userpick input[type="search"]:focus,
+.userpick input[type="time"]:focus,
+.userpick input[type="url"]:focus,
+.userpick textarea:focus,
+.userpick select:focus
+{
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 3%;
+    border: 1px solid #43D1AF;
+}
+
+.userpick input[type="submit"],
+.userpick input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #43D1AF;
+    border-bottom: 2px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+}
+.userpick input[type="submit"]:hover,
+.userpick input[type="button"]:hover{
+    background: #2EBC99;
+}
+
+
+#userform{
+    background-image: url('../image/hotelhall.jpg');
+    background-size: 100% 100%;
+
+}
+
+.btn-primary{
+    text-align: center;
+}
+
+
+
+
+
+
+@import url(//fonts.googleapis.com/css?family=Lato:400,900);
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+.info-card {
+    
+     
+    -webkit-perspective: 600px;
+    text-align: center;
+}
+
+@media screen and (min-width:1071px ){
+    .front, .back{
+          width : 100% !important;
+          
+    }
+}
+@media screen and (max-width:1062px ){
+.front, .back{
+          width : 100% !important;
+          
+    }
+}
+
+.front, .back {
+    background-image : url('../image/card.jpg');
+    border-radius: 10px;
+      width : 100% !important;
+    transition: -webkit-transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    border: 1px solid black;
+}
+
+.front {
+    overflow: hidden;
+ 
+    position: absolute;
+    
+    z-index: 1;
+}
+
+.back {
+    padding: 20px;
+    padding-top: 0px;
+   
+    -webkit-transform: rotateY(-180deg);
+    overflow: scroll;
+}
+
+.info-card:hover .back {
+    -webkit-transform: rotateY(0);
+}
+
+.info-card:hover .front {
+    -webkit-transform: rotateY(180deg);
+}
+
+.card-image {
+width: 100%;
+height: 100%;
+}
+
+
+ 
+
+    
